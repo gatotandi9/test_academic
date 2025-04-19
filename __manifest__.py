@@ -8,7 +8,7 @@ This Module is usage to manage academic information for educational purposes.
     "website":"gatotandi.online",
     "category":"Education",
     "version":"1.1",
-    "depends":["base"],
+    "depends":["base","board"],
     "data":[
         "security/groups.xml",
         "security/ir.model.access.csv",
@@ -18,6 +18,8 @@ This Module is usage to manage academic information for educational purposes.
         "views/attendee.xml",
         "views/partner.xml",
         "wizard/create_attendee.xml",
+        "reports/session.xml",
+        "dashboard/dashboard_academic.xml",
     ],
     "installable":True,
     "auto_install":False,
